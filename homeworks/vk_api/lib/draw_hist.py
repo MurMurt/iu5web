@@ -12,4 +12,4 @@ def draw(lst):
     for item in lst:
         count_of_ages[item['age']-1] += 1
     for i in range(len(count_of_ages)):
-        print(i+1, 'I' * count_of_ages[i])
+        print(i+1, '#' * count_of_ages[i])

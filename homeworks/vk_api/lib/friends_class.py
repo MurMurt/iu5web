@@ -31,7 +31,7 @@ class Friends(bc.BaseClient):
 
         try:
             data = response.json()
-            print(data)
+            # print(data)
             data = data['response']
         except:
             raise exp.RequestError('Bad request')
